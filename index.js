@@ -270,7 +270,7 @@ function addEmployee(){
 
 	db.query(`INSERT INTO emp_tab (first_name, last_name, manager_id, role_id) VALUES ('${firstName}', '${lastName}',${managerID}, ${roleID});`, function(){
 				
-	console.log(`${managerID}, ${roleID}`)
+	
 	menuScreen();
 	});					
 			
